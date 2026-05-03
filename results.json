@@ -1,0 +1,17 @@
+{
+  "Qwen/Qwen2.5-Math-1.5B-Instruct": {
+    "StrategyQA":    {"accuracy": 0.300, "delta_T": 0.566, "delta_M": 0.381, "delta_S": 1.7},
+    "MMLU-Math":     {"accuracy": 0.300, "delta_T": 0.570, "delta_M": 0.116, "delta_S": 5.1},
+    "ARC-Challenge": {"accuracy": 0.533, "delta_T": 0.572, "delta_M": 0.213, "delta_S": 1.5}
+  },
+  "hkust-nlp/Qwen-2.5-1.5B-SimpleRL-Zoo": {
+    "StrategyQA":    {"accuracy": 0.633, "delta_T": 0.933, "delta_M": 0.375, "delta_S": 0.3},
+    "MMLU-Math":     {"accuracy": 0.200, "delta_T": 0.648, "delta_M": 0.233, "delta_S": 2.6},
+    "ARC-Challenge": {"accuracy": 0.633, "delta_T": 0.933, "delta_M": 0.282, "delta_S": 0.3}
+  },
+  "Open-Reasoner-Zero/Open-Reasoner-Zero-1.5B": {
+    "StrategyQA":    {"accuracy": 0.533, "delta_T": 0.878, "delta_M": 0.616, "delta_S": 0.6},
+    "MMLU-Math":     {"accuracy": 0.167, "delta_T": 0.656, "delta_M": 0.364, "delta_S": 4.4},
+    "ARC-Challenge": {"accuracy": 0.700, "delta_T": 0.947, "delta_M": 0.309, "delta_S": 0.2}
+  }
+}
